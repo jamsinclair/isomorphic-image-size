@@ -1,5 +1,5 @@
 # isomorphic-image-size 📸📏
-[![badge of current npm version](https://badgen.net/npm/v/isomorphic-image-size)](https://www.npmjs.com/package/isomorphic-image-size) [![badge of minified + gzip size](https://badgen.net/bundlephobia/minzip/isomorhpic-image-size)](https://bundlephobia.com/package/isomorphic-image-size)
+[![badge of current npm version](https://badgen.net/npm/v/isomorphic-image-size)](https://www.npmjs.com/package/isomorphic-image-size) [![badge of minified + gzip size](https://badgen.net/bundlephobia/minzip/isomorphic-image-size)](https://bundlephobia.com/package/isomorphic-image-size)
 
 > Get image size without rendering. Supported image types: JPG, GIF, PNG, WebP, BMP, TIFF, SVG, PSD, ICO, AVIF, HEIC, HEIF.
 
