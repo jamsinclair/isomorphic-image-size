@@ -1,14 +1,15 @@
 # isomorphic-image-size 📸📏
+[![badge of current npm version](https://badgen.net/npm/v/isomorphic-image-size)](https://www.npmjs.com/package/isomorphic-image-size) [![badge of minified + gzip size](https://badgen.net/bundlephobia/minzip/isomorhpic-image-size)](https://bundlephobia.com/package/isomorphic-image-size)
 
 > Get image size without rendering. Supported image types: JPG, GIF, PNG, WebP, BMP, TIFF, SVG, PSD, ICO, AVIF, HEIC, HEIF.
 
 Key features:
 - Zero dependencies
-- Tiny size, <5KB gzipped
+- Tiny size, <4KB gzipped
 - Isomorphic, works both in browser and node without changing anything
 - Extracts orientation value when available
 
-This code is an ES Module fork of [probe-image-size](https://github.com/nodeca/probe-image-size) and inspired by enhancements from [image-sizer](https://github.com/mfish33/image-sizer). 
+This code is an ES Module fork of [probe-image-size](https://github.com/nodeca/probe-image-size) and inspired by enhancements from [image-sizer](https://github.com/mfish33/image-sizer).
 
 ## Usage
 
