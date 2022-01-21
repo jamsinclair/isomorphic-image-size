@@ -1,4 +1,4 @@
-import * as parsers from './lib/parsers_sync';
+import * as parsers from './lib/parsers_sync.js';
 
 export default function get_image_size(data, ext) {
   const parser_names = Object.keys(parsers);
