@@ -7,4 +7,4 @@ type SizeResult = {
     hUnits: string;
 }
 
-export default function get_image_size(data: Array | ArrayBuffer, ext: string): SizeResult;
+export default function get_image_size(data: Array | ArrayBuffer, ext: string): SizeResult | null;
