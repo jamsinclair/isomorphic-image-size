@@ -1,6 +1,6 @@
 import * as parsers from './lib/parsers_sync.js';
 
-const getParserForExtension = (ext) => {
+function getParserForExtension(ext) {
   if (ext === 'jpg') return 'jpeg';
   if (ext === 'heic' || ext === 'heif') return 'avif';
   return ext;
