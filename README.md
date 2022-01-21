@@ -5,7 +5,7 @@
 
 Key features:
 - Zero dependencies
-- Tiny size, <4KB gzipped
+- Tiny size, 4KB gzipped
 - Isomorphic, works both in browser and node without changing anything
 - Extracts orientation value when available
 
