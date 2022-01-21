@@ -1,5 +1,11 @@
 import * as parsers from './lib/parsers_sync.js';
 
+const getParserForExtension = (ext) => {
+  if (ext === 'jpg') return 'jpeg';
+  if (ext === 'heic' || ext === 'heif') return 'avif';
+  return ext;
+}
+
 export default function get_image_size(data, ext) {
   const parser_names = Object.keys(parsers);
 
@@ -8,9 +14,9 @@ export default function get_image_size(data, ext) {
   }
 
   if (ext) {
-    ext = ext === 'jpg' ? 'jpeg' : ext; // Normalize jpeg to jpg
-    const result = parsers[ext.toLowerCase()](data);
-    return result || null;
+    const parser = parsers[getParserForExtension(ext.toLowerCase())];
+    if (!parser) throw new Error(`Unsupported file type ${ext}`);
+    return parser(data) || null;
   }
 
   for (var i = 0; i < parser_names.length; i++) {
