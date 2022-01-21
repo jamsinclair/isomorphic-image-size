@@ -1,0 +1,29 @@
+{
+  "name": "isomorphic-image-size",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "keywords": [
+    "browser",
+    "node",
+    "isomorphic",
+    "image",
+    "size",
+    "probe",
+    "sizer"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
