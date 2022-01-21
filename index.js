@@ -8,7 +8,7 @@ export default function get_image_size(data, ext) {
   }
 
   if (ext) {
-    ext = ext === 'jpeg' ? 'jpg' : ext; // Normalize jpeg to jpg
+    ext = ext === 'jpg' ? 'jpeg' : ext; // Normalize jpeg to jpg
     const result = parsers[ext.toLowerCase()](data);
     return result || null;
   }
