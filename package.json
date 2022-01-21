@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "repository": "jamsinclair/isomorphic-image-size",
   "sideEffects": false,
   "keywords": [
     "browser",
