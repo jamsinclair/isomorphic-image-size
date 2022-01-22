@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "description": "Get image size without rendering in browser or node. Isomorphic, Zero Dependencies, Lightweight.",
   "repository": "jamsinclair/isomorphic-image-size",
   "sideEffects": false,
   "keywords": [
